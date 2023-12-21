@@ -1,0 +1,120 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 225px;
+  width: 100%;
+}
+.sidebar .sidebar_profile {
+  border-bottom: 1px solid;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.sidebar .sidebar_profile img {
+  width: 100%;
+  height: 50px;
+  margin-bottom: -30px;
+}
+.sidebar .sidebar_profile .MuiAvatar-circular {
+  width: 60px;
+  height: 60px;
+  margin: 0px auto;
+  object-fit: contain;
+}
+.profile_details {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.profile_details h4 {
+  margin-bottom: 0;
+}
+.profile_details p {
+  margin: 5px 10px;
+  font-size: 13px;
+  color: #333;
+}
+.profile_stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 12px;
+  padding: 0px 10px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.connectionOne {
+  display: flex;
+  padding: 5px 10px 3px 10px;
+  justify-content: space-between;
+}
+.connectionTwo {
+  display: flex;
+  padding: 3px 10px 0px 10px;
+  justify-content: space-between;
+}
+.connectionOne span:first-child {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  font-weight: 500;
+}
+.connectionOne span:last-child {
+  color: #0a66c2;
+  font-size: 13px;
+  font-weight: 500;
+}
+.connectionTwo span:first-child {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+}
+.app-hr-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.397);
+}
+.exclusive-content-home {
+  padding: 3px 10px 0px 10px;
+}
+.exclusive-content-home p:first-child {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  padding: 0px 0px 0px 2px;
+  display: flex;
+  margin-top: -2px;
+}
+.exclusive-content-home p:last-child {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+}
+.MuiSvgIcon-root {
+  color: grey;
+}
+.sidebar_recent {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  top: 60px;
+}
+.sidebar_recent p {
+  margin: 0px 0px 10px 0px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  columns: #000;
+}
+.hash span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 5px;
+  color: #333;
+}

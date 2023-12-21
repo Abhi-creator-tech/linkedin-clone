@@ -1,0 +1,77 @@
+.headerWrapper {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.header {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  justify-content: space-between;
+  height: 55px;
+  margin-bottom: 20px;
+}
+.header_left {
+  display: flex;
+}
+.header_left img {
+  height: 30px;
+  margin-right: 10px;
+}
+.header_search {
+  display: flex;
+  align-items: center;
+  background-color: #eef3f8;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.header_search input {
+  background-color: transparent;
+  border: 0px;
+  outline: 0;
+  min-width: 220px;
+}
+.header_search svg {
+  font-size: 20px;
+  color: #333;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+}
+.header_options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 15px;
+  font-size: 14px;
+  color: #565656;
+  position: relative;
+  cursor: pointer;
+}
+.header_options:first-child {
+  color: black;
+}
+/* .header_options:first-child::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    background-color: #333;
+    height: 1px;
+    bottom: -7px;
+} */
+.header_options .MuiAvatar-circular {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.avatarWrapper {
+  position: relative;
+}
+.headerOptionsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

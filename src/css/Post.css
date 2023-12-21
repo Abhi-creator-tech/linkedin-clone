@@ -1,0 +1,122 @@
+.postContainer {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+.whoViewedPost {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 2px 15px;
+}
+.whoViewedPostName {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.whoViewedPostName span {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+.whoViewedPostDots {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+.userPostDetails {
+  padding: 4px 15px 2px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+}
+.profileDetails {
+  display: flex;
+}
+.userPostMainDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+.userDetailName {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+.userDetailsAbout {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.mainFeedPost p {
+  padding: 3px 15px 2px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.911);
+}
+.mainFeedPost img {
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 1/1;
+}
+.postActions {
+  padding: 5px 0px 10px;
+}
+.postActions ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.postActions ul li svg {
+  padding-right: 5px;
+}
+.userPostDetailsImg img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.likesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 16px;
+  padding-top: 10px;
+}
+.likeText {
+  font-size: 14px;
+  color: gray;
+}
+.likeTextWrapper {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.likeTextWrapper:hover .likeText {
+  color: blue;
+  text-decoration: underline;
+}
+.postActionItem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(102, 102, 102);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  flex: 1;
+}
+
+.postActionItem:active {
+  transform: scale3d(0.99, 0.99, 1) perspective(500px);
+}

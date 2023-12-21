@@ -1,0 +1,71 @@
+/* .pic {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  margin-block: 30px;
+  flex-shrink: 0;
+} */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-block: 20px;
+  border-top: 1px solid lightgray;
+}
+.imgBox {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.imgBox img {
+  width: 100%;
+  object-fit: cover;
+  margin-block: 20px;
+  border-radius: 10px;
+}
+.postContent {
+  width: 100%;
+  min-height: 5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem;
+  font-family: inherit;
+  outline: none;
+  height: 100%;
+  flex: 1;
+  resize: none;
+  background-color: rgba(220, 207, 207, 0.231);
+  border-radius: 10px;
+}
+.postModal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+}
+#gallery {
+  height: 0;
+  width: 0;
+}
+.profileSection {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.closeIcon {
+  position: absolute;
+  top: 22px;
+  right: 5px;
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 50%;
+}
+.content {
+  overflow: auto;
+  height: calc(100vh - 200px);
+}

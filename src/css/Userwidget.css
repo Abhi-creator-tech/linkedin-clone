@@ -1,0 +1,43 @@
+.topCourses {
+  padding: 0px 10px 10px 10px;
+  width: 260px;
+  height: auto;
+  height: -moz-fit-content;
+  height: -webKit-fit-content;
+  background-color: white;
+  border-radius: 4px;
+}
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topHeader p {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+.newsList {
+  margin-top: 12px;
+}
+.newsListMain {
+  display: flex;
+  margin-bottom: 12px;
+}
+.newsListCol {
+  margin-right: 5px;
+}
+.newsListCol2 {
+  display: flex;
+  flex-direction: column;
+}
+.newsListCol2 span:first-child {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+.newsListCol2 span:last-child {
+  font-size: 12px;
+  color: grey;
+  padding-top: 5px;
+}
